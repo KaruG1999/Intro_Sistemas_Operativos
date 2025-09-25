@@ -103,3 +103,33 @@
 ### Políticas
 - **Tiempo compartido**: Cola global o cola local por procesador
 - **Espacio compartido**: Organización en grupos (threads)
+
+## Apunte clase 
+
+- Cada proceso se coloca segun algún criterio -> First Fit, Worst Fit, Next Fit, Best Fit.
+- Objetivo es crear la menor cantidad de fragmentacion de un proceso 
+- Particiones fijas 
+
+Técnica de páginación -> particiones fijas (páginas)
+- Primero direccion -> 0
+- Ult partición -> n   
+
+Examen práctica
+Traducir dim fisica a dim lógica 
+Fallo página -> la página queda en disco swap 
+Administrar espacio en disco
+Fragmentación
+
+Proceso -> páginas (128megas)
+Memoria Ram -> marcos (128megas)
+- El proceso se divide en páginas y esas páginas se almacenan en marcos 
+
+Preg examen teorico
+Cúal es la mayor fragmentacion posible con la páginacion? 
+-> tamaño de pág - 1byte
+
+
+1) Calcular lugar en marco(memoria) teniendo datos de página y usando tabla de páginación (y viceversa)
+Con div saco el offset
+
+
